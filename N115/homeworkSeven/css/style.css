@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-bottom: 24px;	
+}
+
+html, body {
+	height: 100%;	
+}
+
+section {
+	height: 100%;
+	background-color: #000;	
+}
+
+.subSection {
+	min-height: 50%;
+	background-color:#FFFFFF;
+	box-sizing:border-box;
+	padding: 2%;
+	display: -webkit-flex;
+	display:flex;
+	text-align:center;
+	text-style:italic;
+}
+
+.bg {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;	
+}
+
+.home {
+	background-image:url(../images/woods.jpg);
+}
+
+.about{
+	background-image:url(../images/snow.jpg)
+}
+
+.work{
+	background-image:url(../images/ocean.jpeg)
+}
+
+.portfolio{
+	background-image:url(../images/factory.jpg)
+}
+
+span:hover{
+	opacity:0.6;
+}
+
+.images{
+	text-align:center;
+}
+.title{
+	background-color: rgba(255, 255, 255, .5);
+	height: 30%;
+	width: 100%;
+	box-sizing:border-box;
+	padding:10px;
+}

@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	font-family:"arial";
+	height:auto;
+	margin:auto;
+	color:#FFFFFF;
+	width:980px;
+}
+
+a{
+	color:#FFFFFF;
+	font-family:"arial";	
+	text-decoration:none;
+	padding-right:12px;
+}
+
+.container{
+	background-color:#8c6238;
+	height:30px;	
+}
+
+.container2{
+	background-color:#c6b299;
+	height:500px;
+	}
+
+.navigation{
+	height:30px;
+	padding-top:15px;
+	padding-left:15px;
+	background-color:#8c6238;	
+}
+
+.widget{
+	float:right;
+	padding-right:15px;
+}
+
+.imgHolder{
+	height:300px;
+	margin:auto;
+}
+
+h4{
+	margin: 0;
+	background-color:#8c6238;
+	height:25px;
+	padding-top:15px;
+	padding-left:60px;
+}
+
+.imgHolder img{
+	width:100%;
+}
+
+.chair{
+	width:200px;
+	height:300px;
+	float:right;
+	margin-top:+60px;
+	margin-right:+130px;
+}
+
+.chair img{
+	padding-right:30px;
+}
+
+.textBox{
+	width:490px;
+	margin-left:+70px;
+	font-size: 12px;
+	margin-top:+50px;
+	float:left;	
+}
+
+.textBox2{
+	width:850px;
+	margin-left:+70px;
+	font-size: 12px;
+}
+
+.top{
+	font-size: 14px;
+	margin-left:+68px;
+	padding-top:+30px;
+	margin-top:-0px;
+	}
+	
+.boxtext{
+	float: left;
+	margin-top:5px;
+	font-size:12px;	
+	margin-left:+70px;
+}
+
+.boxtext1{
+	float: left;
+	font-size:12px;
+	margin-left:-62px;
+}
+
+.boxtext2{
+	float: left;
+	font-size:12px;
+	margin-left:-34px;
+}
+
+.boxtext3{
+	float: left;
+	font-size:12px;
+	margin-left:-38px;
+}
+
+.submit{
+	background-color:#DCDCDC;
+	width:65px;
+	height:21px;
+	margin-top:30px;
+	margin-left:85px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#919191;
+
+}
+
+.submitText{
+	margin-top:2px;
+	font-family:"calibri";
+	font-weight:600;
+	font-size:17px;
+	color:#000000;	
+	padding-left:8px;
+}
+
+.boxes{
+	height:22px;
+	background-color:#FFFFFF;
+	width:183px;
+	margin-left:+140px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#919191;
+	margin-top:4px;
+}
+
+.imgProduct{
+	height:130px;
+	width:130px;
+	padding-top:35px;
+	padding-left:40px;
+	float:left;	
+}
+
+.imgProduct img{
+	height:inherit;
+	width:inherit;	
+}
+
+.imgProduct2{
+	height:130px;
+	width:130px;
+	padding-top:10px;
+	padding-left:40px;
+	float:left;	
+}
+
+.imgProduct2 img{
+	height:inherit;
+	width:inherit;
+}
+
+.imgProduct3 {
+	height:130px;
+	width:130px;
+	padding-top:16px;
+	margin-left:-130px;
+	float:left;
+}
+
+.imgProduct3 img{
+	height:inherit;
+	width:inherit;
+}
+
+.name{
+	font-size:16px;
+	margin: 0 auto;
+	padding-top:36px;
+	margin-left:180px;
+}
+
+.name2{
+	margin: 0 auto;
+	padding-top:20px;
+	margin-left:180px;	
+}
+
+.name3{
+	margin: 0 auto;
+	padding-top:20px;
+	margin-left:180px;	
+}
+
+.desc{
+	font-size:12px;
+	margin-top:5px;
+	margin-left:180px;
+	width:400px;	
+}
+
+.foot{
+	text-align: center;
+	padding-top:10px;
+}
+
+footer{
+	margin-top:-16px;	
+	font-size: 12px;
+}

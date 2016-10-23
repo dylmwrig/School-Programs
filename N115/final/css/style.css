@@ -1,0 +1,268 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+margin: 0;	
+}
+
+h2{
+padding-left:15px;
+padding-top:8px;	
+}
+
+a {
+	text-decoration: none;	
+	color: #0D034B;
+	border:none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+a.icon{
+	height:inherit;
+	width:inherit;
+}
+
+.name {
+	font-family: myFirstFont;
+	src: url(../images/lobster.otf);
+	float:left;
+	color:#B8B3B4;
+	text-shadow: 2px 2px #ff0000;
+	/*background-color:#A2008D;*/
+	background-color:#1E1E1E;
+}
+
+#name img{
+	float:right;
+}
+
+#header{ /*centers my name at the top of the screen */
+	padding-top:30px;
+	padding-bottom:20px;
+	background-color:#1E1E1E;
+}
+
+#container1{
+	position: relative;
+    width: 960px;
+	height: 50px;
+    margin: 0 auto;
+	background-color:#1E1E1E;
+    padding: 0;
+}
+
+#container1 img { /*for your name/linkedin and mail icons*/
+	width: 35px;
+	height:30px;
+}
+
+container1 a {
+	border:none;
+}
+
+#container {
+ width: 1000px;
+ overflow: hidden;
+ margin: 50px auto;
+ background: white;
+}
+
+
+
+#nav-con-top{
+	height:40px;
+	background-color:#2c3c4e;
+}
+
+.nav-con {
+	height:40px;
+	width:1000px;
+	/*background-color:#F5AC0E;*/
+	background-color:#2c3c4e;
+	margin: 0 auto;
+}
+
+/*different margin requirements led to an about bar specifically for the about page.*/
+#about-nav-con{
+	margin-top:300px;
+	height:40px;
+	width:1000px;
+	/*background-color:#F5AC0E;*/
+	background-color:#2c3c4e;
+	margin: 0 auto;
+}
+
+.button{
+	width:100px;
+	height:30px;
+	float:left;
+	text-align:center;
+	/* Why is this a different collor from the one in button a? I found out why, in the alpha section of rgba just put 0.*/
+	 background-color:#317e7b;
+}
+
+.button2 {
+	width:100px;
+	height:30px;
+	float:left;
+	text-align:center;
+	background-color:#419f76;
+	line-height:27px;
+	vertical-align:middle;
+}
+
+.buttonPage{
+	font-size:25px;
+}
+
+.buttonPage a{
+	color: red;
+}
+
+.button a{
+	/*Figure out why it's different when it's rgba.  See above for solution
+	background-color:rgba(232,95,97,0);*/
+	line-height:27px;
+	vertical-align:middle;
+}
+
+
+#mail{
+	float:right;
+}
+
+#title{
+	height:50px;
+	width:100%;
+	background-color:#2c3c4e;
+	padding-left:290px;
+	color:#ff7b28;
+}
+.content{
+	height:650px;
+	width:1000px;
+	margin: 0 auto;
+}
+
+.contentAbout{
+	height:300px;
+	width:1000px;
+	margin: 0 auto;
+}
+
+.next{
+	height:35px;
+	width:70px;
+	background-color:#ff7b28;
+	border-style:solid;
+	border-width:1px;
+	border-color:#000000;
+	float:right;
+	text-align:center;
+}
+
+.previous{
+	height:35px;
+	width:70px;
+	background-color:#ff7b28;
+	border-style:solid;
+	border-width:1px;
+	border-color:#000000;
+	float:left;
+	text-align:center;
+}
+
+/*centers text*/
+.previous a{
+	line-height:33px;
+	vertical-align:middle;
+}
+
+
+.text-container{
+	width:250px;
+	height:500px;
+}
+
+.text-container p{
+	text-align:left;
+}
+
+.work{
+	/* worked originally but doesn't mesh with the fact that I'm now doing margin: bottom. height: inherit;*/
+	height: 304px;
+    width: 324px;
+	float:left;
+	margin-left:+9px;
+	margin-bottom:10px;
+}
+
+.first{
+	margin-left: 0px;
+}
+
+.last{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.workContainer{
+	height: 311px;
+	width:inherit;
+	background-color:#2c3c4e;
+}
+
+/*#box{
+	animation: test 10s infinite;
+	background-color:#DC191C;
+	height:50px;
+	width:30px;
+}*/
+
+@-webkit-keyframes test{
+	0%    { left: 0; }
+  100%  { left: -200%; }
+}
+
+
+#scroll {
+    width: inherit;
+    height: 280px;
+    background: #A3CBE0;
+    border: 2px solid #000;
+    /*???overflow: auto;*/
+ 	overflow: hidden;
+    white-space: nowrap;
+	position: relative;
+    box-shadow: 0 0 10px #000;
+}
+
+.scrollImage {
+  background: url(scrolling2.png);
+  background-size: 2700px 300px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: inherit;
+  width: inherit;
+  /*width was original 300%, height 100%*/
+  -webkit-animation: test 60s linear infinite;
+  /*-moz-animation:    slideshow 10s linear infinite; */
+}
+
+.slideshow {
+  position: relative;
+  overflow: hidden;
+  width:300%;
+  height:inherit;
+}
+
+.work img{
+	width:inherit;
+	height:inherit;
+}
+
+/*rendered unecessary because of nav-con but I'll leave it just in case#bottom{
+	width:inherit;
+	height:35px;
+}*/
